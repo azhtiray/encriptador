@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap">
+
+
+    <title>Encriptador challenge</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./style/Vector.png" alt="logo alura">
+    </header>
+
+
+    <div class="container">
+
+        <section class="form-box">
+            <!-- <form action=""> -->
+
+            <!-- <label for="input-texto">Solo letras minúsculas, sin acento</label> -->
+
+
+            <input class="text-input" type="text" name="input-texto" id="input-texto"
+                placeholder="Ingrese el texto aqui">
+            
+
+            <div id="validar">
+                <img id="signo_admiracion" src="./style/Vector pregunta.png" alt="signo admiracion">
+                <p><i class="fa-solid fa-circle-extclamation"></i>Solo letras minusculas y sin acentos</p>
+
+                <div class="botones">
+                    <input class="btn" type="button" value="encriptar!" id="btn-encriptar">
+                    <input class="btn" type="button" value="desencriptar!" id="btn-desencriptar">
+                </div>
+            </div>
+            <!-- </form> -->
+        </section>
+
+        <section class="msg-box">
+            <!-- <h2 id="">Mensaje encriptada:</h2> -->
+            <div id="resultado">
+                <input class="text-input-salida" type="text" name="msg" id="msg" background
+                    src="./style/Vector pregunta.png" placeholder="Ningun mensaje fue encriptado">
+                <!-- <img src="./style/Muñeco.png" alt="muñeco_alura"> -->
+                <!-- <h3 id="h3">Ningun mensaje fue encriptado</h3>
+                <p id="parrafo">Encuentra el texto que deseas encriptar o desencriptar</p> -->
+                <input class="btn" type="button" value="copiar" id="btn-copy">
+            </div>
+        </section>
+
+    </div>
+
+    <script src="app.js"></script>
+
+    <footer class="piePagina">
+        © Copyright Yarithza Leiva
+    </footer>
+
+
+</body>
+
+</html>
+
+
+
+
+
+<!-- 
+https://alejandrones.github.io/encriptador-alura/ -->
+
+<!-- ---- -->
+<!-- https://es.stackoverflow.com/questions/510006/m%C3%A9todo-de-encriptado-en-javascript -->
+
+<!-- ///https://www.aluracursos.com/challenges/challenge-one-logica/sprint01-construye-un-encriptador-texto-con-javascript -->
